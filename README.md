@@ -4,6 +4,7 @@ JOKAISELLA TIEDOSTOLLA ON TEHTAVAN NIMI
 
 
 1#Hello World
+
 var express = require('express');
 var app = express();
 
@@ -19,6 +20,7 @@ var server = app.listen(8081, function () {
 })
 
 2#BASIC_ROUTING
+
 var express = require('express');
 var app = express();
 
@@ -60,6 +62,7 @@ var server = app.listen(8081, function () {
 })
 
 3#SERVING STATIC FILES
+
 var express = require('express');
 var app = express();
 
@@ -77,6 +80,7 @@ var server = app.listen(8081, function () {
 })
 
 4#GET METHOD
+
 HTML
 
 <html>
@@ -119,6 +123,7 @@ var server = app.listen(8081, function () {
 5#POST METHOD
 
 HTML
+
 <html>
    <body>
       
@@ -165,6 +170,7 @@ var server = app.listen(8081, function () {
 6#FILE UPLOAD
 
 HTML
+
 <html>
    <head>
       <title>File Uploading Form</title>
@@ -232,6 +238,7 @@ var server = app.listen(8081, function () {
 })
 
 7#COOKIES MANAGEMENT
+
 
 var express      = require('express')
 var cookieParser = require('cookie-parser')
